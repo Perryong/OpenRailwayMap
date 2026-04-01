@@ -1160,6 +1160,7 @@ node|z18-[railway=signal]["railway:signal:direction"]["railway:signal:train_prot
 /* NL ETCS stopplaatsmarkering 227b (pijl)                                                  */
 /* This rule will be overwritten by a rule below if it is mounted at a main/combined signal */
 /********************************************************************************************/
+node|z14-[railway=signal]["railway:signal:direction"]["railway:signal:train_protection"="ETCS:marker"]["railway:signal:train_protection:main:form"=sign]["railway:signal:train_protection:main"="ETCS:stop_marker"],
 node|z14-[railway=signal]["railway:signal:direction"]["railway:signal:train_protection"="DE-ESO:ne14"]["railway:signal:train_protection:form"=sign]["railway:signal:train_protection:type"="block_marker"],
 node|z14-[railway=signal]["railway:signal:direction"]["railway:signal:train_protection"="NL:227b"]["railway:signal:train_protection:form"=sign]["railway:signal:train_protection:type"="block_marker"]["railway:signal:train_protection:shape"="arrow"]
 {
