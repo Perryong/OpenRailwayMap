@@ -121,7 +121,6 @@ way[railway][operator] > node[railway=signal][operator]
 	assertNoMatch: "node railway=signal";
 	assertNoMatch: "node railway=signal operator=DB";
 	assertNoMatch: "way railway=rail operator=DB";
-	assertNoMatch: "way railway=rail operator=DB";
 }
 way[railway][operator] > node[railway=milestone][operator]
 {
@@ -129,7 +128,6 @@ way[railway][operator] > node[railway=milestone][operator]
 /* 	assertMatch: "node railway=milestone operator=DB ∈ way railway=rail operator=DB"; */
 	assertNoMatch: "way railway=rail operator=DB";
 	assertNoMatch: "node railway=milestone";
-	assertNoMatch: "way railway=rail operator=DB";
 }
 
 /* supervised=* is deprecated, replace it with the new crossing:supervision=* */
@@ -167,7 +165,7 @@ node[railway=signal]["railway:signal:crossing:form"=sign]["railway:signal:crossi
 node[railway=signal]["railway:signal:crossing_distant:form"=sign]["railway:signal:crossing_distant:states"],
 node[railway=signal]["railway:signal:humping:form"=sign]["railway:signal:humping:states"],
 node[railway=signal]["railway:signal:speed_limit:form"=sign]["railway:signal:speed_limit:speed"=~/;/]["railway:signal:speed"!~/IT:[23]R/],
-node[railway=signal]["railway:signal:speed_limit_distant:form"=sign]["railway:signal:speed_limit_distant:speed"=~/;/]["railway:signal:speed:distant"!~/IT:[23]R/],
+node[railway=signal]["railway:signal:speed_limit_distant:form"=sign]["railway:signal:speed_limit_distant:speed"=~/;/]["railway:signal:speed_limit_distant"!~/IT:[23]R/],
 node[railway=signal]["railway:signal:route:form"=sign]["railway:signal:route:states"],
 node[railway=signal]["railway:signal:route_distant:form"=sign]["railway:signal:route_distant:states"],
 node[railway=signal]["railway:signal:wrong_road:form"=sign]["railway:signal:wrong_road:states"],
