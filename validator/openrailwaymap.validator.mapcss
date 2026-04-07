@@ -164,7 +164,7 @@ node[railway=signal]["railway:signal:minor_distant:form"=sign]["railway:signal:m
 node[railway=signal]["railway:signal:crossing:form"=sign]["railway:signal:crossing:states"],
 node[railway=signal]["railway:signal:crossing_distant:form"=sign]["railway:signal:crossing_distant:states"],
 node[railway=signal]["railway:signal:humping:form"=sign]["railway:signal:humping:states"],
-node[railway=signal]["railway:signal:speed_limit:form"=sign]["railway:signal:speed_limit:speed"=~/;/]["railway:signal:speed"!~/IT:[23]R/],
+node[railway=signal]["railway:signal:speed_limit:form"=sign]["railway:signal:speed_limit:speed"=~/;/]["railway:signal:speed_limit"!~/IT:[23]R/],
 node[railway=signal]["railway:signal:speed_limit_distant:form"=sign]["railway:signal:speed_limit_distant:speed"=~/;/]["railway:signal:speed_limit_distant"!~/IT:[23]R/],
 node[railway=signal]["railway:signal:route:form"=sign]["railway:signal:route:states"],
 node[railway=signal]["railway:signal:route_distant:form"=sign]["railway:signal:route_distant:states"],
